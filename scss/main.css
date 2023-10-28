@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  padding: 20px;
+}
+.list__item {
+  background-color: #fff;
+}
+.list__item h2 {
+  background-color: crimson;
+}
+.list__item h2:hover {
+  background-color: blue;
+  color: white;
+}
+.list__item p {
+  background-color: yellow;
+}
+.list__item p::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
